@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Synonyms & Antonyms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="p-0 bg-red-100 font-comic-sans flex flex-col justify-center items-center">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+font-family: "Poppins", sans-serif;
+}
+</style>
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->
+ 
+
+<div class="bg-gradient-to-br from-blue-100 via-teal-100 to-green-100 rounded-xl shadow-2xl p-8 max-w-md w-full mx-auto mt-10 text-center conta">
+<h1 class="text-3xl font-bold text-teal-700 mb-6">🔍 Synonyms & Antonyms Checker</h1>
+<input type="text"placeholder="Enter a word..." class="wordInput w-full px-4 py-3 border-2 border-teal-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 text-gray-700 mb-4 transition duration-300 ease-in-out"/>
+<button class="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer btn">Find Synonyms & Antonyms</button>
+<div class="mt-6 text-left">
+<h2 class="text-xl font-semibold text-blue-700 mb-2 synonymText"></h2>
+<h2 class="text-xl font-semibold text-green-700 mb-2 antonymText"></h2>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
